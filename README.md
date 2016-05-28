@@ -1,5 +1,5 @@
 # react-webpack
-基于[Webpack](http://webpack.github.io/),[Babel](https://babeljs.io/) 配置的React简单开发环境支持使用ES2015
+基于[Webpack](http://webpack.github.io/),[Babel](https://babeljs.io/) 配置的React简单开发环境；支持使用ES2015
 
 
 
