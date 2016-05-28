@@ -2,8 +2,10 @@
 基于[Webpack](http://webpack.github.io/),[Babel](https://babeljs.io/) 配置的React简单开发环境支持使用ES2015
 
 
-### 项目目录
 
+
+### 项目目录
+```
 ├── README.md
 ├── build
 ├── index.html
@@ -13,6 +15,8 @@
 ├── webpack.build.babel.js
 ├── webpack.config.babel.js
 └── webpack.loaders.js
+```
+
 
 ### 开始使用
 
@@ -22,6 +26,7 @@
 ```
 > $ git clone https://github.com/tongao/react-webpack.git
 ```
+
 
 然后安装依赖模块:
 
@@ -34,6 +39,7 @@
 ```
 > $ npm i webpack-dev-server webpack -g
 ```
+
 
 键入以下命令运行webpack服务:
 
