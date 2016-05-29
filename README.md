@@ -8,10 +8,15 @@
 ```
 ├── README.md
 ├── build
+│   ├── bundle.js
+│   └── bundle.js.map
 ├── index.html
 ├── node_modules
 ├── package.json
 ├── src
+│   ├── css
+│   ├── img
+│   └── js
 ├── webpack.build.babel.js
 ├── webpack.config.babel.js
 └── webpack.loaders.js
