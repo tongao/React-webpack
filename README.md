@@ -1,5 +1,5 @@
-# react-webpack
-基于[Webpack](http://webpack.github.io/),[Babel](https://babeljs.io/) 配置的React简单开发环境；支持使用ES2015
+#  React-webpack
+基于[Webpack](http://webpack.github.io/),[Babel](https://babeljs.io/) 配置的React简单开发环境;支持使用ES2015.
 
 
 
@@ -20,11 +20,11 @@
 
 ### 开始使用
 
-* 首页确保系统中已经安装 [git](https://git-scm.com/) 和 [node](https://nodejs.org/en/) * 此配置需要node4.0以上版本
+* 首页确保系统中已经安装 [git](https://git-scm.com/) 和 [node](https://nodejs.org/en/) (* 此配置需要node4.0以上版本)
 * 然后克隆项目到本地
 
 ```
-> $ git clone https://github.com/tongao/react-webpack.git
+> $ git clone https://github.com/tongao/React-webpack.git
 ```
 
 
