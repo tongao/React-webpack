@@ -22,7 +22,7 @@ module.exports = {
     module: {
         preLoaders: [
             {
-                test: /\.jsx?$/,
+                test: /\.js[x]?$/,
                 exclude: /(node_modules|bower_components)/,
                 loader: 'source-map'
             }
