@@ -2,13 +2,22 @@
 
 export default [
     {
-      test: /\.(scss|css)$/,
+      test: /\.(scss)$/,
       include: /(src|node_modules)/,
       loaders: [
           'style',
           'css',
           'autoprefixer?browsers=last 3 versions',
           'sass?outputStyle=expanded'
+      ]
+    },
+    {
+      test: /\.css$/,
+      include: /(src|node_modules)/,
+      loaders: [
+          'style',
+          'css',
+          'autoprefixer?browsers=last 3 versions'
       ]
     },
     {
@@ -41,5 +50,5 @@ export default [
     {
       test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
       loader: "url?limit=10000&mimetype=image/svg+xml"
-    }
+    },
 ];
