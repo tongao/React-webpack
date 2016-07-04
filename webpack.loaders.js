@@ -2,29 +2,29 @@
 
 export default [
     {
-        test: /\.(scss|css)$/,
-        include: /(src|node_modules)/,
-        loaders: [
-            'style',
-            'css',
-            'autoprefixer?browsers=last 3 versions',
-            'sass?outputStyle=expanded'
-        ]
+      test: /\.(scss|css)$/,
+      include: /(src|node_modules)/,
+      loaders: [
+          'style',
+          'css',
+          'autoprefixer?browsers=last 3 versions',
+          'sass?outputStyle=expanded'
+      ]
     },
     {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loaders: [
-            'url?limit=8192',
-            'file'
-        ]
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      loaders: [
+          'url?limit=8192',
+          'file'
+      ]
     },
     {
-        test: /\.(js|jsx)?$/,
-        exclude: /(node_modules|bower_components)/,
-        loaders: [
-            'react-hot',
-            'babel?presets[]=stage-0,presets[]=react,presets[]=es2015'
-        ]
+      test: /\.(js|jsx)?$/,
+      exclude: /(node_modules|bower_components)/,
+      loaders: [
+          'react-hot',
+          'babel?presets[]=stage-0,presets[]=react,presets[]=es2015'
+      ]
     },
     {
       test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
@@ -41,5 +41,5 @@ export default [
     {
       test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
       loader: "url?limit=10000&mimetype=image/svg+xml"
-    },
+    }
 ];
