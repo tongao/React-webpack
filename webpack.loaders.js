@@ -2,7 +2,7 @@
 
 export default [
     {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         include: /src/,
         loaders: [
             'style',
