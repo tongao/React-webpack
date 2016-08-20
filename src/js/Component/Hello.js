@@ -1,6 +1,6 @@
 /**
  * @introduction  NAME
- * @authors       Null (email:Null@yhd.cn)
+ * @authors       Null (email:Null)
  * @date          DATE
  * @update        DATE
  */

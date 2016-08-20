@@ -1,6 +1,6 @@
 /**
  * @introduction  Webpack React Configuration
- * @authors       Tongao (email:tongao@yhd.cn)
+ * @authors       Tongao (email:header@163.com)
  * @date          2016-05-28
  * @update        2016-05-28
  */

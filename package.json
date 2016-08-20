@@ -13,9 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
-    "babel-core": "^6.10.4",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.9.0",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.5.0",
     "css-loader": "^0.23.1",
@@ -23,8 +23,8 @@
     "http-server": "^0.9.0",
     "node-sass": "^3.8.0",
     "postcss-loader": "^0.8.2",
-    "react": "^15.2.0",
-    "react-dom": "^15.2.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
     "react-hot-loader": "^1.3.0",
     "sass-loader": "^3.2.3",
     "source-map-loader": "^0.1.5",
@@ -32,12 +32,7 @@
     "svgo": "^0.6.6",
     "svgo-loader": "^1.1.0",
     "url-loader": "^0.5.7",
-    "webpack": "^1.13.1",
+    "webpack": "^1.13.2",
     "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
-    "autoprefixer-loader": "^3.2.0",
-    "react": "^15.2.0",
-    "react-dom": "^15.2.0"
   }
 }
